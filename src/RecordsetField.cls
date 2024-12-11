@@ -1,0 +1,22 @@
+VERSION 1.0 CLASS
+BEGIN
+  MultiUse = -1  'True
+END
+Attribute VB_Name = "RecordsetField"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+'' ******************************
+'' Created by: Nick Bywater
+'' Created for: National Park Service, CAKN
+'' Created on: 2024-January
+'' License: Public Domain
+'' ******************************
+
+Public RecordID As Long
+Public FieldName As String
+Public FieldValue As Variant
