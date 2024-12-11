@@ -1,4 +1,4 @@
-Attribute VB_Name = "modSQL"
+﻿Attribute VB_Name = "modSQL"
 Option Compare Database
 Option Explicit
 
@@ -62,4 +62,3 @@ Public Sub CreateTable(dbTarget As DAO.Database, strTableName As String)
     Set db = Nothing
 
 End Sub
-

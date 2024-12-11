@@ -1,0 +1,170 @@
+﻿{
+  "Info": {
+    "Class": "clsVCSIndex",
+    "Description": "Version Control System Index"
+  },
+  "Items": {
+    "MergeBuildDate": null,
+    "FullBuildDate": null,
+    "ExportDate": "2024-12-11T23:54:50.000Z",
+    "FullExportDate": "2024-12-11T23:54:50.000Z",
+    "OptionsHash": "d5a0204",
+    "LastMergedCommit": "",
+    "Components": {
+      "DB Connections": {
+        "db-connection.json": {
+        }
+      },
+      "DB Properties": {
+        "dbs-properties.json": {
+          "FileHash": "73c5e60",
+          "ExportDate": "2024-12-11T23:54:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "769a209"
+        }
+      },
+      "Doc Properties": {
+        "documents.json": {
+          "FileHash": "b50dbc6",
+          "ExportDate": "2024-12-11T23:54:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6f65074"
+        }
+      },
+      "Forms": {
+        "frmSwitchboard.bas": {
+          "FileHash": "d2f7b77",
+          "OtherHash": "7a7e231",
+          "ExportDate": "2024-12-11T23:54:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "52da897"
+        },
+        "frmTransformLabData.bas": {
+          "FileHash": "5e4a55c",
+          "OtherHash": "7d4c74c",
+          "ExportDate": "2024-12-11T23:54:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4ba650d"
+        }
+      },
+      "Hidden Attributes": {
+        "hidden-attributes.json": {
+        }
+      },
+      "Modules": {
+        "modDataOp.bas": {
+          "FileHash": "57c266b",
+          "OtherHash": "c4acdb2",
+          "ExportDate": "2024-12-11T23:54:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "37cfb4d"
+        },
+        "modList.bas": {
+          "FileHash": "647e758",
+          "OtherHash": "6d7fe61",
+          "ExportDate": "2024-12-11T23:54:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8926ee6"
+        },
+        "modSQL.bas": {
+          "FileHash": "e4cdfc6",
+          "OtherHash": "6aebba3",
+          "ExportDate": "2024-12-11T23:54:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c330af0"
+        },
+        "modStack.bas": {
+          "FileHash": "ed95148",
+          "OtherHash": "5beedeb",
+          "ExportDate": "2024-12-11T23:54:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c0931b1"
+        },
+        "modType.bas": {
+          "FileHash": "6729345",
+          "OtherHash": "cd81f49",
+          "ExportDate": "2024-12-11T23:54:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "eb302a9"
+        },
+        "modUtility.bas": {
+          "FileHash": "13f338b",
+          "OtherHash": "5ca5481",
+          "ExportDate": "2024-12-11T23:54:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2171e81"
+        },
+        "RecordsetField.cls": {
+          "FileHash": "56da5eb",
+          "OtherHash": "41b0b41",
+          "ExportDate": "2024-12-11T23:54:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d18d7f3"
+        }
+      },
+      "Nav Pane Groups": {
+        "nav-pane-groups.json": {
+          "FileHash": "b23cfab",
+          "ExportDate": "2024-12-11T23:54:50.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e043b53"
+        }
+      },
+      "Proj Properties": {
+        "proj-properties.json": {
+          "FileHash": "23b6b8b",
+          "ExportDate": "2024-12-11T23:54:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9053e94"
+        }
+      },
+      "Project": {
+        "project.json": {
+          "FileHash": "9fe41ad",
+          "ExportDate": "2024-12-11T23:54:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2e4d1ca"
+        }
+      },
+      "Tables": {
+        "sys_schema_xref.xml": {
+          "FileHash": "415f412",
+          "ExportDate": "2024-12-11T23:54:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c1ce66c"
+        },
+        "xref_map_column_names.xml": {
+          "FileHash": "f2d5d0d",
+          "ExportDate": "2024-12-11T23:54:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "834c56b"
+        }
+      },
+      "Themes": {
+        "Office Theme.thmx": {
+          "FileHash": "5403c0e",
+          "OtherHash": "0325bbd",
+          "ExportDate": "2024-12-11T23:54:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ec2eabf"
+        }
+      },
+      "VB Project": {
+        "vbe-project.json": {
+          "FileHash": "1546728",
+          "ExportDate": "2024-12-11T23:54:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8ff74b4"
+        }
+      },
+      "VBE References": {
+        "vbe-references.json": {
+          "FileHash": "8ab1a53",
+          "ExportDate": "2024-12-11T23:54:49.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8ba2726"
+        }
+      }
+    }
+  }
+}

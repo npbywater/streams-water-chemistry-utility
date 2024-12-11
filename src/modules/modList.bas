@@ -1,4 +1,4 @@
-Attribute VB_Name = "modList"
+﻿Attribute VB_Name = "modList"
 Option Compare Database
 Option Explicit
 

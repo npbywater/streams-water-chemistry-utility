@@ -1,4 +1,4 @@
-Attribute VB_Name = "modDataOp"
+﻿Attribute VB_Name = "modDataOp"
 Option Compare Database
 Option Explicit
 

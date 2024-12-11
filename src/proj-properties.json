@@ -1,0 +1,10 @@
+﻿{
+  "Info": {
+    "Class": "clsDbProjProperty",
+    "Description": "Project Properties (Access)"
+  },
+  "Items": {
+    "VCS Build Path": "M:\\cakn\\streams\\water_chemistry",
+    "VCS Source Path": "M:\\cakn\\streams\\water_chemistry\\streams-water-chemistry-utility\\src"
+  }
+}

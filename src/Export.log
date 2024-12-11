@@ -1,0 +1,153 @@
+﻿-------------------------------------
+Beginning Export of Source Files
+StreamsWaterChemistryUtility_v1.0.accdb
+VCS Version 4.0.34
+Full Path: M:\cakn\streams\water_chemistry\StreamsWaterChemistryUtility_v1.0.accdb
+Export Folder: M:\cakn\streams\water_chemistry\streams-water-chemistry-utility\src\
+Performing Full Export
+12/11/2024 2:54:48 PM
+-------------------------------------
+Scanning source files...
+No db connections found in this database.
+No vbe forms found in this database.
+No saved specs found in this database.
+No shared images found in this database.
+No imex specs found in this database.
+No queries found in this database.
+No macros found in this database.
+No reports found in this database.
+No table data found in this database.
+No table data macros found in this database.
+No relations found in this database.
+No hidden attributes found in this database.
+-------------------------------------
+Exporting project...          
+  StreamsWaterChemistryUtility_v1.0.accdb
+[1]
+-------------------------------------
+Exporting vb project...       
+  Database
+[1]
+-------------------------------------
+Exporting vbe references...   
+  stdole
+[4]
+-------------------------------------
+Exporting proj properties...  
+  Current Project Properties (Access)
+[2]
+-------------------------------------
+Exporting themes...           
+  Office Theme
+[1]
+-------------------------------------
+Exporting db properties...    
+  Database Properties (DAO)
+[52]
+-------------------------------------
+Exporting tables...           
+  sys_schema_xref
+    Sanitized in 0.002 seconds.
+  sys_schema_xref (SQL)
+  xref_map_column_names
+    Sanitized in 0.001 seconds.
+  xref_map_column_names (SQL)
+[2]
+-------------------------------------
+Exporting forms...            
+  frmSwitchboard
+    Sanitized in 0.004 seconds.
+  frmTransformLabData
+    Sanitized in 0.008 seconds.
+[2]
+-------------------------------------
+Exporting modules...          
+  modUtility
+  modType
+  modDataOp
+  modSQL
+  RecordsetField
+  modStack
+  modList
+[7]
+-------------------------------------
+Exporting doc properties...   
+  Database Documents
+[1]
+-------------------------------------
+Exporting nav pane groups...  
+  Groups
+[1]
+-------------------------------------
+Done. (1.7 seconds)
+
+--------------------------------------------------
+                PERFORMANCE REPORTS
+--------------------------------------------------
+Category                      Count     Seconds
+--------------------------------------------------
+Forms                         2         0.69
+Modules                       7         0.23
+Tables                        2         0.21
+DB Properties                 52        0.14
+Themes                        1         0.06
+Nav Pane Groups               1         0.05
+Doc Properties                1         0.05
+Project                       1         0.04
+VBE References                4         0.04
+Proj Properties               2         0.03
+VB Project                    1         0.03
+DB Connections                0         0.01
+Hidden Attributes             0         0.01
+Shared Images                 0         0.00
+Table Data Macros             0         0.00
+Relations                     0         0.00
+IMEX Specs                    0         0.00
+Table Data                    0         0.00
+VBE Forms                     0         0.00
+Queries                       0         0.00
+Saved Specs                   0         0.00
+Reports                       0         0.00
+Macros                        0         0.00
+--------------------------------------------------
+TOTALS:                       74        1.59
+--------------------------------------------------
+
+--------------------------------------------------
+Operations                    Count     Seconds
+--------------------------------------------------
+Write File                    22        0.19
+Convert to JSON               551       0.17
+Increment Progress            54        0.14
+Read File Bytes               12        0.12
+Scan DB Objects               1         0.11
+Delete File                   15        0.07
+Get File Property Hash        38        0.05
+App.ExportXML()               2         0.04
+Read File                     12        0.04
+Console Updates               3         0.03
+App.SaveAsText()              2         0.03
+Clear Files by Ext            6         0.03
+Clear Orphaned Files          13        0.02
+Export VBE Module             7         0.02
+Sanitize File                 2         0.01
+Quick Count Files             1         0.01
+Quick Count Objects           1         0.01
+Export Theme                  1         0.01
+Compute SHA256                78        0.00
+Verify Path                   27        0.00
+Save Table SQL                2         0.00
+Read File DevMode             2         0.00
+Parse JSON                    1         0.00
+Check for linked table        2         0.00
+Get Modified Date             30        0.00
+Get VBA Hash                  9         0.00
+Sanitize XML                  2         0.00
+Format XML                    2         0.00
+Sanitize VBA Code             9         0.00
+Parse JSON ISO Date           21        0.00
+--------------------------------------------------
+Other Operations                        0.58
+--------------------------------------------------
+
+

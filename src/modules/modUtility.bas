@@ -1,4 +1,4 @@
-Attribute VB_Name = "modUtility"
+﻿Attribute VB_Name = "modUtility"
 Option Compare Database
 Option Explicit
 
@@ -93,4 +93,3 @@ Public Sub EmptyComboBox(cbo As Access.ComboBox)
         cbo.RemoveItem x
     Next
 End Sub
-

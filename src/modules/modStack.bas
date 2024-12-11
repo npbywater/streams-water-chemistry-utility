@@ -1,4 +1,4 @@
-Attribute VB_Name = "modStack"
+﻿Attribute VB_Name = "modStack"
 Option Compare Database
 Option Explicit
 
@@ -41,4 +41,3 @@ Public Function IsEmpty(col As VBA.Collection) As Boolean
         IsEmpty = True
     End If
 End Function
-
