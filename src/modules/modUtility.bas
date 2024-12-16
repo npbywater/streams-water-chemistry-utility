@@ -39,9 +39,9 @@ Public Function HasNewline(var As Variant) As Boolean
     End If
 End Function
 
-Public Function Has2Underscores(var As Variant) As Boolean
-    If InStr(1, var, "__") > 0 Then
-        Has2Underscores = True
+Public Function HasUnderscores(var As Variant) As Boolean
+    If InStr(1, var, "_") > 0 Then
+        HasUnderscores = True
     End If
 End Function
 

@@ -35,7 +35,6 @@ Private Sub ShowMissingParameters()
     Dim db As DAO.Database
     Dim rstSource As DAO.Recordset
 
-    Dim mapMissingParameters As Scripting.Dictionary
     Dim lngUnpivotFieldIndexes() As Long
     Dim lngMetadataEndColumn As Long
     Dim lngRowFieldCount As Long
@@ -101,7 +100,7 @@ ExitSub:
     Exit Sub
 
 ErrorHandler:
-    MsgBox Err.Description, vbCritical
+    MsgBox Err.Description, vbCritical, "Streams water chemistry information"
     Resume ExitSub
 End Sub
 
@@ -321,17 +320,17 @@ End Function
 
 Public Function CleanChemistryParameter(ByVal strColumnName As String) As String
     Dim blnHasNewLine As Boolean
-    Dim blnHas2Underscores As Boolean
+    Dim blnHasUnderscores As Boolean
 
     blnHasNewLine = modUtility.HasNewline(strColumnName)
-    blnHas2Underscores = modUtility.Has2Underscores(strColumnName)
+    blnHasUnderscores = modUtility.HasUnderscores(strColumnName)
 
     If blnHasNewLine Then
         strColumnName = modUtility.ReplaceNewline(strColumnName, " ")
     End If
 
-    If blnHas2Underscores Then
-        strColumnName = Replace(strColumnName, "__", " ")
+    If blnHasUnderscores Then
+        strColumnName = Replace(strColumnName, "_", " ")
     End If
 
     CleanChemistryParameter = strColumnName
@@ -377,10 +376,6 @@ Public Function IsWaterChemistryParameter(strColumnName As String) As Boolean
         End If
     End If
 
-End Function
-
-Private Function Replace2Underscores(strColumnName As String, strReplace As String) As String
-    Replace2Underscores = Replace(strColumnName, "__", " ")
 End Function
 
 Public Function ReplaceDuplicateColumnPrefix(strColumnName As String) As String

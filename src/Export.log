@@ -5,7 +5,7 @@ VCS Version 4.0.34
 Full Path: M:\cakn\streams\water_chemistry\StreamsWaterChemistryUtility_v1.0.accdb
 Export Folder: M:\cakn\streams\water_chemistry\streams-water-chemistry-utility\src\
 Using Fast Save
-12/16/2024 1:04:02 PM
+12/16/2024 2:28:53 PM
 -------------------------------------
 Scanning for changes...
 No modified db connections found in this database.
@@ -24,7 +24,6 @@ No modified queries found in this database.
 No modified macros found in this database.
 No modified reports found in this database.
 No modified table data found in this database.
-No modified modules found in this database.
 No modified table data macros found in this database.
 No modified relations found in this database.
 No modified doc properties found in this database.
@@ -36,20 +35,24 @@ Exporting forms...
     Sanitized in 0.010 seconds.
 [1]
 -------------------------------------
-Done. (1.23 seconds)
+Exporting modules...          
+  modUtility
+[1]
+-------------------------------------
+Done. (1.28 seconds)
 
 --------------------------------------------------
                 PERFORMANCE REPORTS
 --------------------------------------------------
 Category                      Count     Seconds
 --------------------------------------------------
-Forms                         1         0.79
-DB Properties                 0         0.11
+Forms                         1         0.78
+DB Properties                 0         0.12
+Modules                       1         0.08
 Nav Pane Groups               0         0.03
-Doc Properties                0         0.03
-Themes                        0         0.02
+Themes                        0         0.03
+Doc Properties                0         0.02
 DB Connections                0         0.02
-Modules                       0         0.02
 VBE References                0         0.02
 Tables                        0         0.02
 Hidden Attributes             0         0.01
@@ -60,44 +63,45 @@ Shared Images                 0         0.00
 Table Data Macros             0         0.00
 IMEX Specs                    0         0.00
 Relations                     0         0.00
-Table Data                    0         0.00
 VBE Forms                     0         0.00
 Saved Specs                   0         0.00
+Table Data                    0         0.00
 Queries                       0         0.00
 Reports                       0         0.00
 Macros                        0         0.00
 --------------------------------------------------
-TOTALS:                       1         1.11
+TOTALS:                       2         1.16
 --------------------------------------------------
 
 --------------------------------------------------
 Operations                    Count     Seconds
 --------------------------------------------------
+Write File                    3         0.23
 Convert to JSON               544       0.16
 Scan DB Objects               1         0.10
 Clear Orphaned Files          13        0.06
+Increment Progress            20        0.04
 App.SaveAsText()              1         0.04
-Write File                    2         0.04
 Console Updates               3         0.03
-Increment Progress            18        0.03
+Read File Bytes               2         0.03
 Quick Count Files             1         0.02
-Delete File                   3         0.01
+Read File                     3         0.02
+Delete File                   4         0.01
 Sanitize File                 1         0.01
 Quick Count Objects           1         0.01
 Check for linked table        4         0.01
-Read File                     2         0.01
-Get File Property Hash        2         0.00
+Get File Property Hash        4         0.01
 Parse JSON                    1         0.00
-Read File Bytes               1         0.00
-Compute SHA256                32        0.00
+Export VBE Module             1         0.00
 Read File DevMode             1         0.00
-Get VBA Hash                  9         0.00
+Get VBA Hash                  10        0.00
+Compute SHA256                36        0.00
 Parse JSON ISO Date           21        0.00
-Verify Path                   3         0.00
-Sanitize VBA Code             1         0.00
-Get Modified Date             2         0.00
+Verify Path                   4         0.00
+Sanitize VBA Code             2         0.00
+Get Modified Date             4         0.00
 --------------------------------------------------
-Other Operations                        0.69
+Other Operations                        0.48
 --------------------------------------------------
 
 
