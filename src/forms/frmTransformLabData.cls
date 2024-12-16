@@ -53,10 +53,10 @@ Private Sub ShowMissingParameters()
     lngMetadataEndColumn = Nz(Me.txtMetadataEndNum, 0)
 
     If strSourceTableName = "" Then
-        MsgBox "Please supply a source table name.", vbInformation, "DMDB information"
+        MsgBox "Please supply a source table name.", vbInformation, "Streams water chemistry information"
         GoTo ExitSub
     ElseIf lngMetadataEndColumn <= 0 Then
-        MsgBox "Please supply a metadata end number.", vbInformation, "DMDB information"
+        MsgBox "Please supply a metadata end number.", vbInformation, "Streams water chemistry information"
         GoTo ExitSub
     Else
         Set rstSource = db.OpenRecordset(strSourceTableName)
@@ -95,7 +95,7 @@ Private Sub ShowMissingParameters()
     Set rstSource = Nothing
     Set db = Nothing
 
-    MsgBox "DONE!", vbInformation, "Water Chemstry Utility"
+    MsgBox "DONE!", vbInformation, "Streams water chemistry information"
 
 ExitSub:
     Exit Sub
@@ -123,10 +123,10 @@ Private Sub cmdTransformDataset_Click()
     lngMetadataEndColumn = Nz(Me.txtMetadataEndNum, 0)
 
     If strSourceTableName = "" Then
-        MsgBox "Please supply a source table name.", vbInformation, "DMDB information"
+        MsgBox "Please supply a source table name.", vbInformation, "Streams water chemistry information"
         GoTo ExitSub
     ElseIf lngMetadataEndColumn <= 0 Then
-        MsgBox "Please supply a metadata end number.", vbInformation, "DMDB information"
+        MsgBox "Please supply a metadata end number.", vbInformation, "Streams water chemistry information"
         GoTo ExitSub
     Else
         Set rst = db.OpenRecordset(strSourceTableName)
@@ -142,7 +142,7 @@ Private Sub cmdTransformDataset_Click()
 
     Application.RefreshDatabaseWindow
 
-    MsgBox "DONE!", vbInformation, "Water Chemstry Utility"
+    MsgBox "DONE!", vbInformation, "Streams water chemistry information"
 
     rst.Close
     Set rst = Nothing
@@ -152,7 +152,7 @@ ExitSub:
     Exit Sub
 
 ErrorHandler:
-    MsgBox Err.Description, vbCritical
+    MsgBox Err.Description, vbCritical, "Streams water chemistry information"
     Resume ExitSub
 
 End Sub
