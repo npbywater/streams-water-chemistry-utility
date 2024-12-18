@@ -53,7 +53,7 @@ compare_values <- function(source_pivot_dt, output_unpivot_dt, FUN=pivot_functio
                    v2 <- as.vector(source_pivot_dt[r_id])[j]
 
                    ## First, if both source 'v2' and target 'v1' are
-                   ## NA, then set 'is_na' to TRUE. We can't compare
+                   ## NA, then set 'is_equal' to TRUE. We can't compare
                    ## two NAs, so we set the flag 'is_equal' to true if
                    ## both 'v1' and 'v2' are NA.
                    is_equal <- FALSE
